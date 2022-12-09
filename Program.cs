@@ -7,10 +7,10 @@ namespace ReverseNumber
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("Please enter a number");
-            int value = Convert.ToInt32(Console.ReadLine());
-            ReverseNumber.ReverseProgram(value);
-            Console.ReadLine();
+            Console.WriteLine("Enter the word ");
+            string input=Convert.ToString(Console.ReadLine());
+            ReverseWord.reverseword(input);
+                        Console.ReadLine();
 
         }
     }
